@@ -1,0 +1,44 @@
+<script src="/MyMerit/Resources/dependencies/jquery/jquery-3.5.1.js"></script>
+<script src="/MyMerit/Resources/dependencies/popper/popper.min.js"></script>
+<script src="/MyMerit/Resources/dependencies/bootstrap/js/bootstrap.min.js"></script>
+<!--DATA TABLES-->
+<script type="text/javascript" src="/MyMerit/Resources/dependencies/datatables/datatables.js"></script>
+<!--CoordinatorHomepage.php-->
+<script>
+    // Call the dataTables jQuery plugin
+    $(document).ready(function () {
+        $('#list-programme').DataTable({
+            responsive: true,
+            scrollY: 500,
+            scrollCollapse: true
+        });
+    });
+</script>
+<!--/CoordinatorHomepage.php-->
+<!--StudentHomepage.php-->
+<script>
+    // Call the dataTables jQuery plugin
+    $(document).ready(function () {
+        $('#attend-programme').DataTable({
+            responsive: true,
+            scrollY: 500,
+            scrollCollapse: true
+        });
+    });
+</script>
+<!--/StudentHomepage.php-->
+<!--ApproveProgram.php-->
+<script>
+    // Call the dataTables jQuery plugin
+    $(document).ready(function () {
+        $('#view-program-admin').DataTable({
+            responsive: true,
+            scrollY: 500,
+            scrollCollapse: true
+        });
+    });
+</script>
+<!--/ApproveProgram.php-->
+<!--/DATA TABLES-->
+</body>
+</html>
